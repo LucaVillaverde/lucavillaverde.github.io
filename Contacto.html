@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-UY">
+<html lang="es">
   <title>Contacto MedicinaUruguaya</title>
   <meta charset="utf-8" />
   <!--Codification-->
@@ -85,11 +85,12 @@
           </tr>
           <tr>
             <td>
+              <form>
               <fieldset>
                 <legend>Información Personal</legend>
                 <div>
-                  <label
-                    >Nombre:
+                  <label for="name">
+                    Nombre:
                     <input
                       autocomplete="username"
                       type="text"
@@ -100,10 +101,11 @@
                   </label>
                 </div>
                 <div>
-                <label>
+                <label for="email">
                   Email:
                   <input
                     autocomplete="email"
+                    id="email"
                     type="email"
                     name="email"
                     placeholder="RobertoGimenez@hotmail.com" required
@@ -117,10 +119,10 @@
             <td>
               <fieldset>
                 <legend>Número Telefonico</legend>
-                <div>
-                <label
-                  >Teléfono:
+                <label for="phone">
+                  Teléfono:
                   <input
+                    id="phone"
                     autocomplete="tel"
                     type="tel"
                     name="phone"
@@ -128,7 +130,6 @@
                     required pattern="[0-9]{9}"
                   >
                 </label>
-                </div>
               </fieldset>
             </td>
           </tr>
@@ -136,15 +137,15 @@
             <td>
               <legend>Otros</legend>
               <fieldset>
-                <div>
-                  <label for="why">¿Por qué quieres contactar?</label>
-                  <select name="why" id="why">
+                  <label style="display:block;" for="why">¿Por qué quieres contactar?</label>
+                  <select  name="why" id="why">
                     <option value="1">Duda</option>
                     <option value="2">Agendar Cita</option>
                   </select>
-                </div>
-                <input type="submit" value="Enviar contacto" />
               </fieldset>
+                <input type="submit" value="Enviar contacto">
+            </form>
+              
             </td>
           </tr>
           <tr>
