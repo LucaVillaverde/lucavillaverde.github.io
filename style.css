@@ -1,6 +1,6 @@
 body {
-    background: rgb(187, 228, 255);
     background-image: url(Imagenes/Fondo2.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
