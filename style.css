@@ -3,13 +3,11 @@ body {
   @media screen {
     background-image: url(Imagenes/Fondo2.webp);
     width: 100%;
-  }
-  /* Adaptación de imagen para PC */
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+  }
   }
 
 .link{
@@ -19,4 +17,5 @@ body {
   text-decoration: none;
   border-radius: 10px;
   padding: 3px 17px;
+  box-shadow: 1px 1px 0px rgb(0, 0, 0);
 }
