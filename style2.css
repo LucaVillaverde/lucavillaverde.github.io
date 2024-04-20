@@ -1,6 +1,12 @@
 body {
-    background: rgb(187, 228, 255);
-    background-image: url(Imagenes/Fondo1.png);
+    /* Adaptación de imagen para Moviles */
+  @media screen {
+    background-image: url(Imagenes/Fondo1.webp);
+    width: 100%;
+  }
+  /* Adaptación de imagen para PC */
+    
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
