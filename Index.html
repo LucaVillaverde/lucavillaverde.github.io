@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es-UY">
   <head>
-    <meta charset="utf-8"> <!--Codificación-->
+    <meta charset="utf-8" content-type="text/html" content-type="text/css"> <!--Codificación-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
   <!--Titulo-->
   <title>Inicio MedicinaUruguaya</title>
   <!--Fondo de Pagina-->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <!--Estilo de imagenes-->
+  <link rel="stylesheet" type="text/css" href="Resolution.css">
   </head>
   <header>
     <body>
@@ -15,20 +17,27 @@
         <tr>
           <td colspan="3">
             <img
-              alt="Banner"
-              title="Banner"
-              src="Imagenes/Medico Banner.jpg"
-              width="900"
-            />
+            style="border-radius: 20px;"
+            rel="preload"
+            fetchpriority="high"
+            as="image"
+            type="image/webp"
+            src="Imagenes\Medico Banner.webp"
+            width="900"
+            alt="Banner"
+            title="Banner"
+            >
           </td>
         </tr>
 
         <section>
           <tr>
-            <th style="display: inline-flexbox;"><a href="Index.html" class="link">Inicio</a></th>
-            <th style="display: inline-flexbox;"><a href="Servicios.html" class="link">Servicios</a></th>
-            <!--Navigation-->
-            <th style="display: inline-flexbox;"><a href="Contacto.html" class="link">Contacto</a></th>
+            <th class="links">
+              <a href="Index.html" class="link">Inicio</a>
+              <a href="Servicios.html" class="link">Servicios</a>
+              <!--Navigation-->
+              <a href="Contacto.html" class="link">Contacto</a>
+            </th>
           </tr>
           <tr>
             <td colspan="3"><h1>Información</h1></td>
@@ -50,32 +59,25 @@
             </td>
           </tr>
           <tr>
-            <td>
+            <td class="contenedor">
               <img
+                class="imagen"
+                alt="Foto de Referencia"
+                title="Foto de Referencia" 
+                src="Imagenes\Medico1.webp" 
+              >
+              <img
+                class="imagen"
                 alt="Foto de Referencia"
                 title="Foto de Referencia"
-                src="Imagenes\Medico1.jpeg"
-                height="200"
-                width="300"
-              />
-            </td>
-            <td>
+                src="Imagenes\Medico2.webp"
+              >
               <img
+                class="imagen"
                 alt="Foto de Referencia"
                 title="Foto de Referencia"
-                src="Imagenes\Medico2.png"
-                height="200"
-                width="300"
-              />
-            </td>
-            <td>
-              <img
-                alt="Foto de Referencia"
-                title="Foto de Referencia"
-                src="Imagenes\Medico3.png"
-                height="200"
-                width="300"
-              />
+                src="Imagenes\Medico3.webp" 
+              >
             </td>
           </tr>
           <tr>

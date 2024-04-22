@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="es-UY">
   <head>
-    <meta charset="utf-8"> <!--Codificación-->
+    <meta charset="utf-8" content-type="text/html" content-type="text/css"> <!--Codificación-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <!--Titulo-->
-    <title>Servicios MedicinaUruguaya</title>
-    <!--Fondo de Pagina-->
-    <link rel="stylesheet" href="style3.css">
+  <!--Titulo-->
+  <title>Servicios MedicinaUruguaya</title>
+  <!--Fondo de Pagina-->
+  <link rel="stylesheet" type="text/css" href="style3.css">
+  <!--Estilo de imagenes-->
+  <link rel="stylesheet" type="text/css" href="Resolution.css">
   </head>
+  <header>
   <body>
     <table align="center" width="900">
       <tr>
         <td colspan="3">
           <img
+            style="border-radius: 20px;"
+            rel="preload"
+            fetchpriority="high"
+            as="image"
+            type="image/webp"
             alt="Banner"
             title="Banner"
-            src="Imagenes\Medico Banner.jpg"
+            src="Imagenes\Medico Banner.webp"
             width="900"
           />
         </td>
@@ -24,10 +32,12 @@
 
       <section>
         <tr>
-          <th style="display: inline-flexbox;"><a href="Index.html" class="link">Inicio</a></th>
-          <th style="display: inline-flexbox;"><a href="Servicios.html" class="link">Servicios</a></th>
-          <!--Navigation-->
-          <th style="display: inline-flexbox;"><a href="Contacto.html" class="link">Contacto</a></th>
+          <th class="links">
+            <a href="Index.html" class="link">Inicio</a>
+            <a href="Servicios.html" class="link">Servicios</a>
+            <!--Navigation-->
+            <a href="Contacto.html" class="link">Contacto</a>
+          </th>
         </tr>
         <tr>
           <td colspan="3"><h1>Servicios</h1></td>
@@ -53,27 +63,24 @@
           </td>
         </tr>
         <tr>
-          <td>
+          <td class="contenedor">
             <img
+              class="imagen"
               alt="Foto de Referencia"
               title="Foto de Referencia"
-              src="Imagenes\Medico 4.jpeg"
+              src="Imagenes\Medico 4.webp"
             />
-          </td>
-          <td>
             <img
+              class="imagen"
               alt="Foto de Referencia"
               title="Foto de Referencia"
-              src="Imagenes\Medico5.jpeg"
-              width="270"
+              src="Imagenes\Medico5.webp"
             />
-          </td>
-          <td>
             <img
+              class="imagen"
               alt="Foto de Referencia"
               title="Foto de Referencia"
-              src="Imagenes\Medico6.jpeg"
-              height="180"
+              src="Imagenes\Medico6.webp"
             />
           </td>
         </tr>
@@ -83,4 +90,5 @@
       </section>
     </table>
   </body>
+  </header>
 </html>

@@ -7,7 +7,9 @@
     <!--Titulo-->
     <title>Contacto MedicinaUruguaya</title>
     <!--Fondo de Pagina-->
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <!--Estilo de imagenes-->
+    <link rel="stylesheet" type="text/css" href="Resolution.css">
   </head>
   <header>
     <body>
@@ -15,19 +17,27 @@
         <tr>
           <td colspan="3">
             <img
+              style="border-radius: 20px;"
+              fetchpriority="high" 
+              rel="preload"
+              as="image"
+              type="image/webp"
               alt="Banner"
               title="Banner"
-              src="Imagenes/Medico Banner.jpg"
+              src="Imagenes/Medico Banner.webp"
               width="900"
             />
           </td>
         </tr>
         <section>
           <tr>
-            <th style="display: inline-flexbox;"><a href="Index.html" class="link">Inicio</a></th>
-            <th style="display: inline-flexbox"><a href="Servicios.html" class="link">Servicios</a></th>
-            <!--Navigation-->
-            <th style="display: inline-flexbox;"><a href="Contacto.html" class="link">Contacto</a></th>
+            <th class="links">
+              <a href="Index.html" class="link">Inicio</a>
+              <!--Navegación-->
+              <a href="Servicios.html" class="link">Servicios</a>
+              <!--Navigation-->
+              <a href="Contacto.html" class="link">Contacto</a>
+            </th>
           </tr>
           <tr>
             <td colspan="3"><h1>Contacto</h1></td>
@@ -53,33 +63,24 @@
             </td>
           </tr>
           <tr>
-            <td>
+            <td class="contenedor">
               <img
-                align="center"
+                class="imagen"
                 alt="Foto de Referencia"
                 title="Foto de Referencia"
-                src="Imagenes/Medico10.jpeg"
-                height="180"
-                width="270"
+                src="Imagenes/Medico10.webp"
               />
-            </td>
-            <td>
               <img
-                align="center"
+                class="imagen"
                 alt="Foto de Referencia"
                 title="Foto de Referencia"
-                src="Imagenes/Medico8.jpg"
-                height="180"
-                
+                src="Imagenes/Medico8.webp"
               />
-            </td>
-            <td>
               <img
-                align="center"
+                class="imagen"
                 alt="Foto de Referencia"
                 title="Foto de Referencia"
-                src="Imagenes/Medico9.jpg"
-                height="180"
+                src="Imagenes/Medico9.webp"
               />
             </td>
           </tr>
@@ -90,7 +91,7 @@
           </tr>
           <tr>
             <td>
-              <form>
+              <form class="formulario">
               <fieldset>
                 <legend>Nombre y Correo Electrónico</legend>
                 <div>
