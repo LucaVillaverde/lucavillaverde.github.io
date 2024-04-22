@@ -8,6 +8,8 @@
   <title>Inicio MedicinaUruguaya</title>
   <!--Fondo de Pagina-->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <!--Estilo de imagenes-->
+  <link rel="stylesheet" type="text/css" href="Resolution.css">
   </head>
   <header>
     <body>
@@ -15,8 +17,10 @@
         <tr>
           <td colspan="3">
             <img
-            style="border-radius: 20px;" 
-            fetchpriority="high" 
+            style="border-radius: 20px;"
+            rel="preload"
+            fetchpriority="high"
+            as="image"
             type="image/webp"
             src="Imagenes\Medico Banner.webp"
             width="900"
@@ -28,10 +32,12 @@
 
         <section>
           <tr>
-            <th><a href="Index.html" class="link">Inicio</a></th>
-            <th><a href="Servicios.html" class="link">Servicios</a></th>
-            <!--Navigation-->
-            <th><a href="Contacto.html" class="link">Contacto</a></th>
+            <th class="links">
+              <a href="Index.html" class="link">Inicio</a>
+              <a href="Servicios.html" class="link">Servicios</a>
+              <!--Navigation-->
+              <a href="Contacto.html" class="link">Contacto</a>
+            </th>
           </tr>
           <tr>
             <td colspan="3"><h1>Información</h1></td>
@@ -53,34 +59,24 @@
             </td>
           </tr>
           <tr>
-            <td>
+            <td class="contenedor">
               <img
+                class="imagen"
                 alt="Foto de Referencia"
-                title="Foto de Referencia"
-                style="border-radius: 15px;" 
+                title="Foto de Referencia" 
                 src="Imagenes\Medico1.webp" 
-                width="300" 
-                height="200"
               >
-            </td>
-            <td>
-              <img 
-                alt="Foto de Referencia"
-                title="Foto de Referencia"
-                style="border-radius: 15px;"
-                src="Imagenes\Medico2.webp"
-                width="300"
-                height="200"
-              >
-            </td>
-            <td>
               <img
+                class="imagen"
                 alt="Foto de Referencia"
                 title="Foto de Referencia"
-                style="border-radius: 15px;" 
+                src="Imagenes\Medico2.webp"
+              >
+              <img
+                class="imagen"
+                alt="Foto de Referencia"
+                title="Foto de Referencia"
                 src="Imagenes\Medico3.webp" 
-                width="300" 
-                height="200"
               >
             </td>
           </tr>

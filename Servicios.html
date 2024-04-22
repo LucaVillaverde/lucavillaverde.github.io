@@ -4,18 +4,23 @@
     <meta charset="utf-8" content-type="text/html" content-type="text/css"> <!--Codificación-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <!--Titulo-->
-    <title>Servicios MedicinaUruguaya</title>
-    <!--Fondo de Pagina-->
-    <link rel="stylesheet" type="text/css" href="style3.css">
+  <!--Titulo-->
+  <title>Servicios MedicinaUruguaya</title>
+  <!--Fondo de Pagina-->
+  <link rel="stylesheet" type="text/css" href="style3.css">
+  <!--Estilo de imagenes-->
+  <link rel="stylesheet" type="text/css" href="Resolution.css">
   </head>
+  <header>
   <body>
     <table align="center" width="900">
       <tr>
         <td colspan="3">
           <img
             style="border-radius: 20px;"
-            fetchpriority="high" 
+            rel="preload"
+            fetchpriority="high"
+            as="image"
             type="image/webp"
             alt="Banner"
             title="Banner"
@@ -27,10 +32,12 @@
 
       <section>
         <tr>
-          <th><a href="Index.html" class="link">Inicio</a></th>
-          <th><a href="Servicios.html" class="link">Servicios</a></th>
-          <!--Navigation-->
-          <th><a href="Contacto.html" class="link">Contacto</a></th>
+          <th class="links">
+            <a href="Index.html" class="link">Inicio</a>
+            <a href="Servicios.html" class="link">Servicios</a>
+            <!--Navigation-->
+            <a href="Contacto.html" class="link">Contacto</a>
+          </th>
         </tr>
         <tr>
           <td colspan="3"><h1>Servicios</h1></td>
@@ -56,30 +63,24 @@
           </td>
         </tr>
         <tr>
-          <td>
+          <td class="contenedor">
             <img
-              style="border-radius: 15px;"
+              class="imagen"
               alt="Foto de Referencia"
               title="Foto de Referencia"
               src="Imagenes\Medico 4.webp"
             />
-          </td>
-          <td>
             <img
-              style="border-radius: 15px;"
+              class="imagen"
               alt="Foto de Referencia"
               title="Foto de Referencia"
               src="Imagenes\Medico5.webp"
-              width="270"
             />
-          </td>
-          <td>
             <img
-              style="border-radius: 15px;"
+              class="imagen"
               alt="Foto de Referencia"
               title="Foto de Referencia"
               src="Imagenes\Medico6.webp"
-              height="180"
             />
           </td>
         </tr>
@@ -89,4 +90,5 @@
       </section>
     </table>
   </body>
+  </header>
 </html>
