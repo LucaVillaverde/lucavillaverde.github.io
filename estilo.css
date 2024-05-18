@@ -1,0 +1,120 @@
+body {
+    background-image: url(Imagenes/Fondo2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#pagina {
+    width: 100%;
+    margin: auto;
+    
+}
+
+#contenedorBanner, #Banner {
+    width: 100%;
+    margin: auto;
+}
+
+a {
+    display: block;
+    float: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 33.33333%;
+    text-align: center;
+    background-color: aqua;
+    box-shadow: 2px 2px 2px;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+#importante {
+    font-size: 18px;
+}
+
+#costo {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#contenedorImagen {
+    width: 100%;
+    margin: auto;
+}
+
+.imagen {
+    width: 33.333333%;
+    margin: auto;
+    float: left;
+    border-radius: 24px;
+}
+
+#formulario {
+    clear: both;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    box-align: center;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+}
+
+#ventajas {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    
+    #pagina {
+        width: 90%;
+        margin: auto;
+    }
+
+    a {
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+}
